@@ -4,7 +4,7 @@ declare enum enumLinkType {
   IDLE = 'image',
 }
 
-declare class PostParseDefHinter {
+export declare class PostParseDefHinter {
   checkAndGetTypesFrom(): {
     errLinkOptType(typeIt: enumLinkType, types: enumLinkType[]): void;
     invalidLastTypesWarn(inputTypes: enumLinkType[], defLinkTypesList: enumLinkType[]): void;
@@ -16,6 +16,6 @@ declare class PostParseDefHinter {
   }
 }
 
-declare class PostParse {
+export declare class PostParse {
   static injectHint(extHint: PostParseDefHinter): void; 
 }

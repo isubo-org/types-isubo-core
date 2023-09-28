@@ -1,4 +1,4 @@
-declare class AssetPublisherDefHinter {
+export declare class AssetPublisherDefHinter {
   setSimpleGitOptAndBaseDir(): {
     errParam: void;
   }
@@ -39,6 +39,6 @@ declare class AssetPublisherDefHinter {
   }
 }
 
-declare class AssetPublisher {
+export declare class AssetPublisher {
   static injectHint(extHintIns:AssetPublisherDefHinter ): void;
 }

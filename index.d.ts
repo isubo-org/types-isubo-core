@@ -32,9 +32,9 @@ declare interface PublishParam0 extends DeployMethodCommonParam {
   hint: PublishHint;
 }
 
-declare class IsuboCore {
-  public create(param0: CreateParam0): Promise<Array<void>>;
-  public update(param0: UpdateParam0): Promise<Array<void>>;
-  public publish(param0: PublishParam0): Promise<Array<void>>;
-  public writeToClipboardOneBy(param0: { filepathArr: String[] }): Promise<Array<void>>;
+export declare class IsuboCore {
+  create(param0: CreateParam0): Promise<Array<void>>;
+  update(param0: UpdateParam0): Promise<Array<void>>;
+  publish(param0: PublishParam0): Promise<Array<void>>;
+  writeToClipboardOneBy(param0: { filepathArr: String[] }): Promise<Array<void>>;
 }
