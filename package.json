@@ -1,0 +1,23 @@
+{
+  "name": "@types/isubo-core",
+  "version": "0.0.0",
+  "description": "TypeScript declarations for isubo-core library",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isubo-org/types-isubo-core.git"
+  },
+  "keywords": [
+    "types",
+    "isubo-core"
+  ],
+  "author": "isaaxite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isubo-org/types-isubo-core/issues"
+  },
+  "homepage": "https://github.com/isubo-org/types-isubo-core#readme"
+}
