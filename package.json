@@ -1,6 +1,6 @@
 {
   "name": "@types/isubo-core",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "TypeScript declarations for isubo-core library",
   "types": "index.d.ts",
   "type": "module",
